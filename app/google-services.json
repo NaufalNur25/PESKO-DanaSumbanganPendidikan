@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "683309263891",
+    "project_id": "peduli-sekolah",
+    "storage_bucket": "peduli-sekolah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683309263891:android:c8b61e600c2892f86da3e6",
+        "android_client_info": {
+          "package_name": "com.peskopay.ujikom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683309263891-reogctt6fg1hri4hvogge9gr7ona49am.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.peskopay.ujikom",
+            "certificate_hash": "2516278cfed7ece2c6d91cdd70012aded264e829"
+          }
+        },
+        {
+          "client_id": "683309263891-qh4b5abvncphhjbh0f4oirtvjrrm70r9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdX8mjmsbNqe7mwXz_fyEv0SI1PgQcpLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683309263891-qh4b5abvncphhjbh0f4oirtvjrrm70r9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

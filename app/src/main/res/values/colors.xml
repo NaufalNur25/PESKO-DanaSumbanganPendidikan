@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#655DBB</color>
+    <color name="purple_700">#5A5596</color>
+    <color name="blue_200">#C9EEFF</color>
+    <color name="blue_500">#97DEFF</color>
+    <color name="blue_700">#62CDFF</color>
+    <color name="black">#181823</color>
+    <color name="secondary_black">#443C68</color>
+    <color name="white">#FFFFFF</color>
+    <color name="primary">#ECF2FF</color>
+    <color name="colorLayerDark">#D6000000</color>
+    <color name="colorLayerSemiDark">#60000000</color>
+
+    <color name="bootstrap_primary">#007bff</color>
+    <color name="bootstrap_secondary">#6c757d</color>
+    <color name="bootstrap_success">#28a745</color>
+    <color name="bootstrap_info">#17a2b8</color>
+    <color name="bootstrap_warning">#ffc107</color>
+    <color name="bootstrap_danger">#dc3545</color>
+</resources>

@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtNisn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NISN"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/edtNis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIS"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/edtNamaLengkap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/edtTelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="Nomor Telephone"
+        android:inputType="number"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/edtAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="top"
+        android:hint="Alamat"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <!-- Dsp Spinner -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tahun Angkatan"
+        android:textSize="18sp"/>
+
+    <Spinner
+        android:id="@+id/dsp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:contentDescription="dsp"
+        android:textSize="18sp" />
+
+    <!-- Kelas Spinner -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas"
+        android:textSize="18sp"/>
+
+    <Spinner
+        android:id="@+id/kelas"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:contentDescription="kelas"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:textSize="18sp"/>
+    <!-- Jenis Kelamin RadioGroup -->
+
+    <RadioGroup
+        android:id="@+id/genderGrup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/genderLaki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laki-laki"
+            android:textSize="18dp"/>
+
+        <RadioButton
+            android:id="@+id/genderPerempuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perempuan"
+            android:textSize="18dp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Buat data siswa"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:background="@drawable/enabled_primary_button_background"/>
+
+</LinearLayout>

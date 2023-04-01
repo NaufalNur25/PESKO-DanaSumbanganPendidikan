@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textSize="20dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="20sp"
+            android:inputType="textPassword"/>
+        <EditText
+            android:id="@+id/edtKonfirmasiPassword"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:hint="Konfirmasi"
+            android:textSize="20sp"
+            android:inputType="textPassword"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edtNamaLengkap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Lengkap"
+        android:textSize="20sp"
+        android:inputType="textNoSuggestions"/>
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Buat kelas untuk siswa"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:background="@drawable/enabled_primary_button_background"/>
+
+</LinearLayout>

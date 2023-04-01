@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_peskologo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PESKOPAY"
+        tools:targetApi="31">
+        <activity
+            android:name=".view.main.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.main.PetugasActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.form.PembayaranFormActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.form.SiswaFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.main.SiswaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.main.KelasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.main.DspActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.main.DashboardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.auth.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.auth.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
